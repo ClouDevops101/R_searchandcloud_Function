@@ -10,7 +10,8 @@ library("twitteR")
 ## Installation
 Very simple Drag this function in your R terminal or in you Rstudio IDE
 
-> searchandCloudFR  <- function(s1)
+```R
+ searchandCloudFR  <- function(s1)
 {   
     # Get and store today's Date
     today <- Sys.Date()
@@ -35,7 +36,7 @@ Very simple Drag this function in your R terminal or in you Rstudio IDE
                                                             "httpst", "httpstc" ))
     wordcloud(bigdata_corpus, random.order = FALSE, colors = brewer.pal(8, "Dark2"))
 }
-
+```
 ## usage
 searchandCloudFR("DevOps")
 
