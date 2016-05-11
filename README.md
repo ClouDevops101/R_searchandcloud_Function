@@ -10,7 +10,7 @@ library("twitteR")
 ## Installation
 Very simple Drag this function in your R terminal or in you Rstudio IDE
 
-searchandCloudFR  <- function(s1)
+> searchandCloudFR  <- function(s1)
 {   
     # Get and store today's Date
     today <- Sys.Date()
