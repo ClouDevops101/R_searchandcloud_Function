@@ -41,6 +41,10 @@ Very simple Drag this function in your R terminal or in you Rstudio IDE
 ```R
 searchandCloudFR("DevOps")
 ```
+that gives:
+
+![R_searchandcloud_Function](R_searchandCloud_Function.jpg)
+
 ## changing setting
 This function was made to look tweet only in french you can feel free to change those parameters
 ```R
