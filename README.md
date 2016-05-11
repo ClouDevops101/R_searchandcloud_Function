@@ -38,8 +38,11 @@ Very simple Drag this function in your R terminal or in you Rstudio IDE
 }
 ```
 ## usage
+```R
 searchandCloudFR("DevOps")
-
+```
 ## changing setting
 This function was made to look tweet only in french you can feel free to change those parameters
-searchTwitter(s1, lang="fr", *geocode='46.227638046,2.2137490,500km'*, since=toString(today), n=1000)
+```R
+    searchTwitter(s1, lang="fr", geocode='46.227638046,2.2137490,500km', since=toString(today), n=1000)
+```
